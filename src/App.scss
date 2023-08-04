@@ -1,0 +1,17 @@
+.users {
+	--row-gap: 10px;
+	--col-gap: 10px;
+
+	.users__items {
+		display: flex;
+		flex-wrap: wrap;
+		margin: calc(var(--row-gap) * -1) calc(var(--col-gap) * -1);
+	}
+
+	.users__item {
+		flex: 0 0 33%;
+		max-width: 33%;
+		padding: var(--row-gap) var(--col-gap);
+	}
+}
+
